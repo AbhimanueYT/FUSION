@@ -1,3 +1,3 @@
 // These values should be your Supabase project values
-export const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL || 'https://apjiikrlxfjijtrcjoni.supabase.co';
-export const SUPABASE_ANON_KEY = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwamlpa3JseGZqaWp0cmNqb25pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzkxOTA3NDUsImV4cCI6MjA1NDc2Njc0NX0.Vd74C2J6OMfzPHqNc2fCGNydv9Zk5pBISc40Pr9jYeY'; 
+export const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL || 'https://xxxxxx.supabase.co';
+export const SUPABASE_ANON_KEY = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || 'YOUR API KEY'; 
