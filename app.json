@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "FUSION",
+    "slug": "fusion",
+    "scheme": "fusion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7f8185"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abhimanue.fusion",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#7f8185"
+      },
+      "package": "com.abhimanue.fusion",
+      "runtimeVersion": "1.0.0"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4f82ab23-854c-447f-82a8-3c56de1a75f5"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4f82ab23-854c-447f-82a8-3c56de1a75f5"
+    },
+    "owner": "abhimanue"
+  }
+}
